@@ -1,0 +1,51 @@
+.section {
+    padding: 45px;
+}
+
+.notFoundSection {
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 45px;
+    margin: auto;
+}
+
+.buttonBox{
+    width: 100%;
+    display: grid;
+}
+
+.bookingSection{
+    max-width: 800px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 10px 45px 45px 45px;
+    margin: auto;
+}
+
+.bookingHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 15px;
+}
+
+.bookingTitle{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .section {
+        padding: 15px;
+    }
+
+    .notFoundSection {
+        padding: 45px 5px;
+    }
+}

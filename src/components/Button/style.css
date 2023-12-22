@@ -1,0 +1,14 @@
+.button {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid;
+    font-family: Montserrat;
+}
+
+.button:hover{
+    box-shadow: 1px 1px 1px 0  black;
+}

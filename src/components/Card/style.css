@@ -1,0 +1,50 @@
+.card {
+    margin-top: 30px;
+    padding: 15px;
+    box-shadow: 1px 1px 1px 1px  black;
+}
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 15px;
+    align-items: center;
+}
+.cardLink{
+    color: #4dc4db;
+    cursor: pointer;
+    font-family: Montserrat
+}
+
+.cardBody {
+
+}
+.cardName {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cardElement {
+    margin-top: 15px;
+}
+.cardLabel {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+.cardDate {
+    font-family: Montserrat;
+    margin: 10px 0 0 0;
+}
+
+.cardFooter{
+    display: flex;
+    justify-content: end;
+    border-top: 1px solid lightgrey;
+    padding-top: 15px;
+    margin-top: 15px;
+    align-items: center;
+}
